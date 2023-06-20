@@ -17,7 +17,7 @@ func main() {
 	app := fiber.New(fiber.Config{
 		Prefork:      true,
 		ServerHeader: "Fiber",
-		AppName:      "Listmonk-Verimor Gateway v1.0.1",
+		AppName:      "Listmonk-Verimor Gateway v1.0.2",
 	})
 
 	username := config.Config("USERNAME")
